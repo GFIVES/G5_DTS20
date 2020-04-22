@@ -1,2 +1,2 @@
 # G5
-team project
+Team Project
