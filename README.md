@@ -1,2 +1,2 @@
-# G5
+# G5 Progate DTS
 Team Project
