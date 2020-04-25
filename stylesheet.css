@@ -37,7 +37,7 @@
 
 .learn {
   display: inline-block;
-  padding: 0px 10px;
+  padding: 0px 60px;
   border-radius: 50px;
   cursor: pointer;
   border: 3px solid #0066ff;
@@ -50,6 +50,7 @@
   color: white;
   border: 3px solid white;
 }
+
 
 
 
