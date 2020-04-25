@@ -14,6 +14,10 @@
 
 
 /* EXTRA 1 */
+.container {
+	width:100%;
+}
+
 .extra1 {
   font-family: arial;
   text-align: center;
@@ -178,7 +182,9 @@ footer {
 
 /* Untuk Smartphone */ 
 @media (max-width: 670px) {
-	.heading h2 {
+	
+	
+	.heading h2{
 		font-size:5px;
 	}	
 	
