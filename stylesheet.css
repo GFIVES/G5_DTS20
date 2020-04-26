@@ -60,11 +60,98 @@
 
 /* EXTRA 2 */
 
+.extra2{
+    max-width: 1440px;
+    width: auto;
+    height: 600px;
+    background-color:#f9fbfe;
+}
 
+.member-card-judul{
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    color: #2b546a;
+    border-bottom: #2b546a solid 5px;
+    padding-bottom: 10px;
+}
 
+.memcard-all{
+    display: inline-flex;
+    text-align: center;
+}
 
+.memcard-container{
+    background-color: white;
+    width: 250px;
+    height: 300px;
+    border-radius: 10%;
+    margin-top: 50px;
+    margin-left:10px;
+    margin-right:10px;
+    flex: auto;
+}
 
+.memcard-container:hover{
+    background-color: #e5ecf5;
+}
 
+.memcard-container:active{
+    background-color: #8be0e6;
+}
+
+.memcard-profile{
+    text-align: center;
+}
+
+.memcard-name{
+    text-align: center;
+    color: #2b546a;
+    margin:2px;
+}
+
+.memcard-name h3{
+    padding-top: 5px;
+}
+
+.memcard-sosmed {
+    width: 250px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+}
+
+.fa{
+    color: #2b546a;
+    padding: 10px 20px;
+    
+}
+
+.fa:active{
+    color: #2b546a;
+}
+
+.memcard-footer{
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.memcard-profile img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+}
+
+.align-text{
+    text-align: center;
+}
+
+.memcard-footer span{
+    color: red;
+}
 
 /* FOOTER */
 footer {
