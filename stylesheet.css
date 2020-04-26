@@ -150,11 +150,7 @@ a{
   border: 3px solid white;
 }
 
-@keyframes example {
-  0%   {color: black;}
-  50%  {color: #0066ff;}
-  100% {color: black;}
-}
+
 
 
 
