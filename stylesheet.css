@@ -1,4 +1,18 @@
 /* Edit Sesuai bagian teman-teman */
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    width: auto;
+    height: fit-content;
+    margin: 0 0;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0 0;
+}
+
+
 /* HEADER */
 
 
