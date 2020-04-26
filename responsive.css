@@ -57,34 +57,14 @@
 
 
 /* EXTRA 2 */
-    /* Laptop */
-@media (max-width:1440px){
-   
-    .member-card-judul{
-        text-align: center;
-        margin-left: 300px;
-        margin-right: 300px;
-        font-size: 24px;
-        margin-bottom: auto;
+		
 
-    }
-
-    .memcard-all{
-    display: flex;
-    }
-
-    .memcard-container{
-    flex: auto;
-    }
-
-}
     /* Tablet */
 @media (max-width:1024px){
    .extra2{
        width: auto;
        height: max-content;
    }
-   
    
     .member-card-judul{
         text-align: center;
@@ -97,7 +77,6 @@
 
     .memcard-all{
         flex-wrap: wrap;
-        text-align: center;
     }
 
     .memcard-container{
@@ -130,14 +109,11 @@
         text-align: center;
     }
 
-    .fa{
+    .memcard-sosmed span{
         padding: 5px 10px;
 
     }
-
 }
-
-
 
     /* Smartphone */
 @media (max-width:670px){
@@ -169,13 +145,13 @@
         text-align: center;
     }
     
-    .fa{
+    .memcard-sosmed span{
         margin: 0 auto;
         text-align: center;
     }
-
-
 }
+
+		
 /* FOOTER */
 
 /* Untuk Smartphone */ 
