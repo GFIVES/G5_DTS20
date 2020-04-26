@@ -18,11 +18,104 @@ a{
 
 
 /* HEADER */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 64px;
+  width: 100%;
+  z-index: 2;
+  transition: width 0.2s;
+  box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+}
 
+.bg-dark {
+  background-color: #001529;
+}
 
+.header-left {
+  float: left;
+}
 
+header .logo {
+  cursor: pointer;
+  width: 64px;
+  height: 64px;
+  padding: 12px;
+  opacity: 0.8;
+}
 
+header .logo:hover {
+  opacity: 1;
+}
 
+header .logo-label {
+  font-size: 24px;
+  margin-left: 12px;
+  color: rgba(255, 255, 255, 0.5);
+  user-select: none;
+}
+
+.header-right {
+  float: right;
+  height: 64px;
+  padding: 0 12px;
+}
+
+.menu-opts {
+  display: none;
+  opacity: 0.5;
+  cursor: pointer;
+  margin: 0 12px;
+  font-size: 24px;
+  color: #fff;
+  line-height: 64px;
+}
+
+.menu-opts:hover {
+  opacity: 1;
+}
+
+ul.none {
+  list-style: none;
+  line-height: 64px;
+  margin-top: -2px;
+  box-shadow: none;
+  padding-inline-start: 0;
+}
+
+ul.inline li {
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 0 20px;
+}
+
+ul.inline li:hover {
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+
+.menu-horizontal a {
+  display: block;
+}
+
+.in-block {
+  display: inline-block;
+}
+
+.row-flex {
+  display: flex;
+}
+
+.row-flex-middle {
+  align-items: center;
+}
+
+.row-flex-center {
+  justify-content: center;
+}
 
 /* HEADER-UTAMA */
 
@@ -33,6 +126,7 @@ a{
 }
 
 .header-utama {
+    margin-top: 64px;
     background-image: url(background1.jpg);
     background-size: cover;
     background-position: center center;
