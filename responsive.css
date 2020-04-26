@@ -170,7 +170,7 @@
 	.footer-mid ul{
 		display:flex;
 		flex-direction:column;
-		margin-top:-5px;
+		margin-top:-10px;
 	}
 	.footer-mid ul li{
 		
@@ -244,7 +244,7 @@
 	.footer-mid ul{
 		display:flex;
 		flex-direction:column;
-		margin-top:-5px;
+		margin-top:-10px;
 	}
 	.footer-mid ul li{
 		
