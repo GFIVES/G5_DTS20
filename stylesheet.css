@@ -255,6 +255,7 @@ ul.inline li:hover {
 
 /* EXTRA 2 */
 
+
 .extra2{
     max-width: 1440px;
     width: auto;
@@ -272,9 +273,17 @@ ul.inline li:hover {
     padding-bottom: 10px;
 }
 
+.member-card-judul h2{
+    font-size: 24px;
+}
+
+.member-card-judul h3{
+    font-size: 18px;
+}
+
 .memcard-all{
-    display: inline-flex;
-    text-align: center;
+    display: flex;
+    margin: 0 auto;
 }
 
 .memcard-container{
@@ -306,8 +315,13 @@ ul.inline li:hover {
     margin:2px;
 }
 
+.memcard-name h2{
+    font-size: 20px;
+}
+
 .memcard-name h3{
     padding-top: 5px;
+    font-size: 16px;
 }
 
 .memcard-sosmed {
@@ -317,13 +331,13 @@ ul.inline li:hover {
     text-align: center;
 }
 
-.fa{
+.memcard-sosmed span{
     color: #2b546a;
     padding: 10px 20px;
     
 }
 
-.fa:active{
+.memcard-sosmed span:active{
     color: #2b546a;
 }
 
@@ -344,9 +358,16 @@ ul.inline li:hover {
     text-align: center;
 }
 
+.memcard-footer{
+    font-size: 16px;
+    line-height: normal;
+    color: #2b546a;
+}
+
 .memcard-footer span{
     color: red;
 }
+
 
 /* FOOTER */
 footer {
