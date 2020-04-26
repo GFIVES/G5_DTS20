@@ -1,0 +1,145 @@
+/* Edit Sesuai bagian teman-teman */
+
+
+
+/* HEADER */
+
+
+
+
+
+
+/* HEADER-UTAMA */
+
+
+
+
+
+
+/* EXTRA 1 */
+
+
+
+
+
+/* EXTRA 2 */
+    /* Laptop */
+@media (max-width:1440px){
+   
+    .member-card-judul{
+        text-align: center;
+        margin-left: 300px;
+        margin-right: 300px;
+        font-size: 24px;
+        margin-bottom: auto;
+
+    }
+
+    .memcard-all{
+    display: flex;
+    }
+
+    .memcard-container{
+    flex: auto;
+    }
+
+}
+    /* Tablet */
+@media (max-width:1024px){
+   .extra2{
+       width: auto;
+       height: max-content;
+   }
+   
+   
+    .member-card-judul{
+        text-align: center;
+        margin-left: 300px;
+        margin-right: 300px;
+        font-size: 24px;
+        margin-bottom: auto;
+
+    }
+
+    .memcard-all{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .memcard-container{
+        flex: auto;
+        max-width: 200px;
+        max-height: 250px;
+        margin: 30px auto;
+        text-align: center;
+    }
+
+    .memcard-name h2{
+        font-size: 19px;
+    }
+
+    .mecard-name h2{
+        font-size: 15px;
+    }
+
+    .memcard-profile img{
+        border-radius: 50%;
+        height: 80px;
+        width: 80px;
+        margin: 20px;
+    }
+
+    .memcard-sosmed {
+        max-width: 200px;
+        max-height: 30px;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .fa{
+        padding: 5px 10px;
+
+    }
+
+}
+
+
+
+    /* Smartphone */
+@media (max-width:670px){
+    
+    .member-card-judul{
+        text-align: left;
+        margin-left: 20px;
+        font-size: 12px;
+        margin-right: 20px;
+        
+    }
+    
+    .memcard-all{
+        flex-direction:column;
+        text-align: center;
+    }
+
+    .memcard-container{
+        text-align: center;
+        max-width: 250px;
+        max-height: 300px;
+        margin: 20px auto;
+    }
+
+    .memcard-sosmed {
+        max-width: 250px;
+        max-height: 30px;
+        display: inline-block;
+        text-align: center;
+    }
+    
+    .fa{
+        margin: 0 auto;
+        text-align: center;
+    }
+
+
+}
+/* FOOTER */
