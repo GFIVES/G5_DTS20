@@ -31,8 +31,17 @@
 }
 
 @media (max-width: 670px) {
-     	.heading h2 {
+     	.heading {
+		padding-top: 30px;
+	}
+	
+	.heading h1 {
+		font-family: impact;
+	}
+	
+	.heading h2 {
 	   font-size: 20px;
+	   
      	{
 }
 
