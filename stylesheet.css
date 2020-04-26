@@ -271,6 +271,7 @@ ul.inline li:hover {
     color: #2b546a;
     border-bottom: #2b546a solid 5px;
     padding-bottom: 10px;
+    padding-top: 30px;
 }
 
 .member-card-judul h2{
@@ -333,12 +334,13 @@ ul.inline li:hover {
 
 .memcard-sosmed span{
     color: #2b546a;
+    margin-top: 20px;
     padding: 10px 20px;
     
 }
 
 .memcard-sosmed span:active{
-    color: #2b546a;
+    color: #8be0e6;
 }
 
 .memcard-footer{
