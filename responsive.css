@@ -143,3 +143,151 @@
 
 }
 /* FOOTER */
+
+/* Untuk Smartphone */ 
+@media (max-width: 670px) {
+	.heading h2 {
+		font-size: 20px;
+	}
+	
+	.footer{
+		display:flex;
+	}
+	
+	/*Footer Left*/
+	.footer-left{
+		width:20%;
+	}
+	.footer-left img{
+		width:95px;
+		margin-top:15px;
+	}
+	
+	/*Footer Mid*/
+	.footer-mid{
+		width:40%;
+	}
+	.footer-mid ul{
+		display:flex;
+		flex-direction:column;
+		margin-top:-5px;
+	}
+	.footer-mid ul li{
+		
+	}
+	.footer-mid ul li a{
+		font-size:10px;
+	}
+	.footer-mid ul li a:hover{
+		font-size:10px;
+	}
+	
+	/*Footer Right*/
+	.footer-right{
+		width:40%;
+		display:flex;
+		flex-direction:column;
+		padding-top:35px;
+	}
+	.footer-right p{
+		text-align:left;
+		font-size:10px;
+		padding:0;
+		margin:0;
+	}
+	.footer-right ul{
+		flex-direction:column;
+		padding:0;
+		margin:0;
+	}
+	.footer-right ul li{
+		padding:0;
+	}
+	.footer-right ul li a{
+		font-size:10px;
+		text-align:left;
+	}
+	.footer-right ul li a:hover{
+		font-size:10px;
+		text-align:left;
+	}
+	.fa{
+		font-size:10px;
+		width:10px;
+		height:10px;
+	}
+	
+}
+
+@media (max-width: 1000px) {
+	.heading h2 {
+		font-size: 20px;
+	}
+	
+	.footer{
+		display:flex;
+	}
+	
+	/*Footer Left*/
+	.footer-left{
+		width:20%;
+	}
+	.footer-left img{
+		width:95px;
+		margin-top:15px;
+	}
+	
+	/*Footer Mid*/
+	.footer-mid{
+		width:40%;
+	}
+	.footer-mid ul{
+		display:flex;
+		flex-direction:column;
+		margin-top:-5px;
+	}
+	.footer-mid ul li{
+		
+	}
+	.footer-mid ul li a{
+		font-size:10px;
+	}
+	.footer-mid ul li a:hover{
+		font-size:10px;
+	}
+	
+	/*Footer Right*/
+	.footer-right{
+		width:40%;
+		display:flex;
+		flex-direction:column;
+		padding-top:35px;
+	}
+	.footer-right p{
+		text-align:left;
+		font-size:10px;
+		padding:0;
+		margin:0;
+	}
+	.footer-right ul{
+		flex-direction:column;
+		padding:0;
+		margin:0;
+	}
+	.footer-right ul li{
+		padding:0;
+	}
+	.footer-right ul li a{
+		font-size:10px;
+		text-align:left;
+	}
+	.footer-right ul li a:hover{
+		font-size:10px;
+		text-align:left;
+	}
+	.fa{
+		font-size:10px;
+		width:10px;
+		height:10px;
+	}
+}
