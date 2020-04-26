@@ -353,6 +353,10 @@ footer {
 }
 
 @media (max-width: 1000px) {
+	.heading h2 {
+		font-size: 20px;
+	}
+	
 	.footer{
 		display:flex;
 	}
