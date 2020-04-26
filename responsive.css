@@ -3,7 +3,15 @@
 
 
 /* HEADER */
+@media (max-width: 768px) {
+  .menu-horizontal {
+    display: none;
+  }
 
+  .menu-opts {
+    display: block;
+  }
+}
 
 
 
