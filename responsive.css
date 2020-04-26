@@ -23,7 +23,8 @@
   100% {color: black;}
 }
 
-@media (max-width:1024px){
+
+@media (max-width:1024px) {
 	.heading h2 {
 	   font-size: 15px
 	}
