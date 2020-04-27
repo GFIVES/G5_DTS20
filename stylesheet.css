@@ -204,7 +204,7 @@ ul.inline li:hover {
 
 /* EXTRA 1 */
 .extra1 {
-  font-family: arial;
+  
   text-align: center;
 }
 
@@ -215,10 +215,10 @@ ul.inline li:hover {
 
 .heading h1 {
   font-size: 50px;
-  font-family: impact;
   animation-name: example;
   animation-duration: 3s;
   animation-iteration-count: infinite;
+  margin-bottom: 20px;
 }
 
 .heading h2 {
@@ -237,6 +237,7 @@ ul.inline li:hover {
   transition: all 0.7s;
   color: #0066ff;
   text-decoration: none;
+  margin-bottom: 50px;
 }
 
 .learn:hover {
