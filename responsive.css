@@ -38,9 +38,9 @@
 	}
 }
 
-@media (max-width: 670px) {
+@media (max-width:670px) {
         .heading {
-	padding-top: 30px;
+	margin-top: 30px;
 	}
 	
 	.heading h2 {
