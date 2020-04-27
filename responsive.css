@@ -58,7 +58,6 @@
 
 /* EXTRA 2 */
 		
-
     /* Tablet */
 @media (max-width:1024px){
    .extra2{
@@ -88,11 +87,11 @@
     }
 
     .memcard-name h2{
-        font-size: 19px;
+        font-size: 17px;
     }
 
-    .mecard-name h2{
-        font-size: 15px;
+    .mecard-name h3{
+        font-size: 14px;
     }
 
     .memcard-profile img{
