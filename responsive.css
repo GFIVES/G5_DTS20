@@ -20,9 +20,12 @@
 /* HEADER-UTAMA */
 @media(max-width : 670px) {
     .header-utama {
-	    margin-bottom: 20px;
+	    padding-bottom: 20px;
     }	
     
+     .top-wrapper {
+	     padding-bottom: 30px;
+    }
 
     .top-wrapper h1 {
         font-size: 54px;
