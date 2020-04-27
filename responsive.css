@@ -1,0 +1,301 @@
+/* Edit Sesuai bagian teman-teman */
+
+
+
+/* HEADER */
+@media (max-width: 678px) {
+  .menu-horizontal {
+    display: none;
+  }
+
+  .menu-opts {
+    display: block;
+  }
+}
+
+
+
+
+
+/* HEADER-UTAMA */
+
+
+
+
+
+
+/* EXTRA 1 */
+@keyframes example {
+  0%   {color: black;}
+  50%  {color: #0066ff;}
+  100% {color: black;}
+}
+
+
+@media (max-width:1024px) {
+	.heading h2 {
+	   font-size: 15px
+	}
+}
+
+@media (max-width: 670px) {
+    .heading {
+	padding-top: 30px;
+	}
+	
+	.heading h1 {
+	font-family: impact;
+	}
+	
+	.heading h2 {
+	font-size: 20px;
+	   
+	}
+}
+
+
+
+
+/* EXTRA 2 */
+		
+
+    /* Tablet */
+@media (max-width:1024px){
+   .extra2{
+       width: auto;
+       height: max-content;
+   }
+   
+    .member-card-judul{
+        text-align: center;
+        margin-left: 300px;
+        margin-right: 300px;
+        font-size: 24px;
+        margin-bottom: auto;
+
+    }
+
+    .memcard-all{
+        flex-wrap: wrap;
+    }
+
+    .memcard-container{
+        flex: auto;
+        max-width: 200px;
+        max-height: 250px;
+        margin: 30px auto;
+        text-align: center;
+    }
+
+    .memcard-name h2{
+        font-size: 19px;
+    }
+
+    .mecard-name h2{
+        font-size: 15px;
+    }
+
+    .memcard-profile img{
+        border-radius: 50%;
+        height: 80px;
+        width: 80px;
+        margin: 20px;
+    }
+
+    .memcard-sosmed {
+        max-width: 200px;
+        max-height: 30px;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .memcard-sosmed span{
+        padding: 5px 10px;
+        margin-top: 0px;
+
+    }
+
+}
+
+    /* Smartphone */
+@media (max-width:670px){
+    
+    .member-card-judul{
+        text-align: left;
+        margin-left: 20px;
+        font-size: 12px;
+        margin-right: 20px;
+        
+    }
+    
+    .memcard-all{
+        flex-direction:column;
+        text-align: center;
+    }
+
+    .memcard-container{
+        text-align: center;
+        max-width: 250px;
+        max-height: 300px;
+        margin: 20px auto;
+    }
+
+    .memcard-sosmed {
+        max-width: 250px;
+        max-height: 30px;
+        display: inline-block;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .memcard-sosmed span{
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+		
+/* FOOTER */
+
+/* Untuk Smartphone */ 
+@media (max-width: 670px) {
+	
+	
+	.footer{
+		display:flex;
+	}
+	
+	/*Footer Left*/
+	.footer-left{
+		width:20%;
+	}
+	.footer-left img{
+		width:95px;
+		margin-top:15px;
+	}
+	
+	/*Footer Mid*/
+	.footer-mid{
+		width:40%;
+	}
+	.footer-mid ul{
+		display:flex;
+		flex-direction:column;
+		margin-top:-10px;
+	}
+
+	.footer-mid ul li a{
+		font-size:10px;
+	}
+	.footer-mid ul li a:hover{
+		font-size:10px;
+	}
+	
+	/*Footer Right*/
+	.footer-right{
+		width:40%;
+		display:flex;
+		flex-direction:column;
+		padding-top:35px;
+	}
+	.footer-right p{
+		text-align:left;
+		font-size:10px;
+		padding:0;
+		margin:0;
+	}
+	.footer-right ul{
+		flex-direction:column;
+		padding:0;
+		margin:0;
+	}
+	.footer-right ul li{
+		padding:0;
+	}
+	.footer-right ul li a{
+		font-size:10px;
+		text-align:left;
+	}
+	.footer-right ul li a:hover{
+		font-size:10px;
+		text-align:left;
+	}
+	.footer-right .fa{
+		font-size:10px;
+		width:10px;
+		height:10px;
+	}
+	
+}
+
+@media (max-width: 1000px) {
+	/*
+	.heading h2 {
+		font-size: 20px;
+	}
+	*/
+	
+	.footer{
+		display:flex;
+	}
+	
+	/*Footer Left*/
+	.footer-left{
+		width:20%;
+	}
+	.footer-left img{
+		width:95px;
+		margin-top:15px;
+	}
+	
+	/*Footer Mid*/
+	.footer-mid{
+		width:40%;
+	}
+	.footer-mid ul{
+		display:flex;
+		flex-direction:column;
+		margin-top:-10px;
+	}
+
+	.footer-mid ul li a{
+		font-size:10px;
+	}
+	.footer-mid ul li a:hover{
+		font-size:10px;
+	}
+	
+	/*Footer Right*/
+	.footer-right{
+		width:40%;
+		display:flex;
+		flex-direction:column;
+		padding-top:35px;
+	}
+	.footer-right p{
+		text-align:left;
+		font-size:10px;
+		padding:0;
+		margin:0;
+	}
+	.footer-right ul{
+		flex-direction:column;
+		padding:0;
+		margin:0;
+	}
+	.footer-right ul li{
+		padding:0;
+	}
+	.footer-right ul li a{
+		font-size:10px;
+		text-align:left;
+	}
+	.footer-right ul li a:hover{
+		font-size:10px;
+		text-align:left;
+	}
+	.footer-right .fa{
+		font-size:10px;
+		width:10px;
+		height:10px;
+	}
+}
