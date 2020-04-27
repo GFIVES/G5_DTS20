@@ -19,8 +19,9 @@
 
 /* HEADER-UTAMA */
 @media(max-width : 670px) {
-    
-	
+    .header-utama {
+	    margin-bottom: 20px;
+    }	
     
 
     .top-wrapper h1 {
