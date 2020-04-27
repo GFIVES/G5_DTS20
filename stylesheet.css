@@ -258,7 +258,6 @@ ul.inline li:hover {
 
 
 .extra2{
-    max-width: 1440px;
     width: auto;
     height: 600px;
     background-color:#f9fbfe;
@@ -313,8 +312,16 @@ ul.inline li:hover {
 
 .memcard-name{
     text-align: center;
-    color: #2b546a;
     margin:2px;
+}
+
+.memcard-name a{
+    text-decoration: none;
+    color: #2b546a;
+}
+
+.memcard-name a:active{
+    color: white;
 }
 
 .memcard-name h2{
@@ -335,13 +342,13 @@ ul.inline li:hover {
 
 .memcard-sosmed span{
     color: #2b546a;
-    margin-top: 20px;
+    margin-top: 10px;
     padding: 10px 20px;
     
 }
 
 .memcard-sosmed span:active{
-    color: #8be0e6;
+    color: white;
 }
 
 .memcard-footer{
