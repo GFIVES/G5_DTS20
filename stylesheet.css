@@ -185,19 +185,7 @@ ul.inline li:hover {
 
 }
 
-@media(max-width : 670px) {
-    .btn {
-        padding: 10px 80px;
-    }
 
-    .top-wrapper h1 {
-        font-size: 54px;
-    }
-
-    .header-utama {
-        height: 280;
-    }
-}
 
 
 
