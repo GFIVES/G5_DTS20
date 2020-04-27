@@ -19,6 +19,9 @@
 
 /* HEADER-UTAMA */
 @media(max-width : 670px) {
+    .top-wrapper {
+	    paddng-
+	
     .btn {
         padding: 10px 80px;
     }
@@ -28,7 +31,7 @@
     }
 
     .header-utama {
-        height: 280;
+        
     }
 }
 
